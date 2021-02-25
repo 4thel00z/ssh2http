@@ -18,7 +18,6 @@ python3 -m pip install ssh2http
 python3 -m ssh2http <name-of-ssh-config-entry> <port - defaults to 1337>
 
 # client
-
 python3 -m ssh2http.client <url-to-ssh2http-server> <timeout-of-commands - defaults to 30 secs>
 ```
 ## License
